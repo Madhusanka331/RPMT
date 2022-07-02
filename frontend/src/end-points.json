@@ -1,0 +1,39 @@
+{
+	"supervisors": {
+		"common": "supervisors",
+		"projects": "supervisors/{id}/projects",
+		"responseProjects": "supervisors/{id}/projects/{projectId}",
+		"submissions": "supervisors/{id}/submissions"
+	},
+	"researchFields": {
+		"common": "research_fields"
+	},
+	"users": {
+		"common": "users",
+		"emailAvailable": "users/email_available"
+	},
+	"students": {
+		"common": "students",
+		"supervisorFeedback": "students/feedback"
+	},
+	"auth": {
+		"loggedUser": "auth",
+		"login": "auth/login"
+	},
+	"groups": {
+		"common": "groups"
+	},
+	"projects": {
+		"common": "projects",
+		"supervisor": "projects/{id}/supervisors",
+		"submissions": "projects/submissions"
+	},
+	"panelMembers": {
+		"common": "panel_members",
+		"groups": "panel_members/groups"
+	},
+	"submissions": {
+		"common": "submissions",
+		"marks": "submissions/{id}/marks"
+	}
+}
